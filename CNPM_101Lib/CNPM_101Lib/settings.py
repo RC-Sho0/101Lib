@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'CNPM_101Lib.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'myDB',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
 # superuser: admin
