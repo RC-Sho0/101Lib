@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'home',
+    #'django.contrib.admin',
 ]
 
 MIDDLEWARE = [
@@ -70,7 +71,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'CNPM_101Lib.wsgi.application'
 
-
+AUTH_USER_MODEL = 'home.Users'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
